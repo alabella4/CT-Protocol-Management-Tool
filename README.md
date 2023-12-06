@@ -13,7 +13,7 @@ Structure of the repository
 -   store_para_lookup_tbl_json_Siemens - generate JSON files for Siemens protocol files based on Siemens data structure
 
 
-- convert_protocol_from_indiv_prot_xml_to_json_xlsx_GE - example GE script with several self-contained functions. Current functionality only works for general CT, but functionality may be built for other protocol types (e.g., Cardiac).
+- convert_protocol_from_indiv_prot_xml_to_json_xlsx_GE - example GE script with several self-contained functions. User-specific parameters should be specified in lines 1065 - 1070. Current functionality only works for general CT, but functionality may be built for other protocol types (e.g., Cardiac).
 -   In this example, 2 protocol files are called to compare parameters between the 2.
 -   store_para_lookup_tbl_json_GE - generate JSON files for GE protocol files based on GE data structure
 
