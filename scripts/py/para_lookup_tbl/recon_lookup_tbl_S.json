@@ -1,0 +1,74 @@
+{
+    "Series Description": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": "^SeriesDescription:"
+        }
+    ],
+    "Slice Thickness (mm)": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": "^SliceEffective:"
+        }
+    ],
+    "Slice Increment (mm)": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": "^SliceEffectiveTiltCorrected:"
+        }
+    ],
+    "Kernel": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": "^Kernel:"
+        }
+    ],
+    "Window Name": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": "^Window"
+        }
+    ],
+    "Iter.Recon Type": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": "^ReconMode"
+        }
+    ],
+    "Iter.Recon Strength": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": "^ImageReconType:"
+        }
+    ],
+    "Hor FOV for Recon (mm)": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": "^FoVHorLength:"
+        }
+    ],
+    "Vert FOV for Recon (mm)": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": "^FoVVertLength:"
+        }
+    ],
+    "Transfer1": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": "^Transfer1:"
+        }
+    ],
+    "Transfer2": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": "^Transfer2:"
+        }
+    ],
+    "Transfer3": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": "^Transfer3:"
+        }
+    ]
+}
