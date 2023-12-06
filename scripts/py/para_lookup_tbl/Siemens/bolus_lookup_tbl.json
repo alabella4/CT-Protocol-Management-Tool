@@ -1,0 +1,212 @@
+{
+    "Auto Trigger": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//BolusAutoTrigger",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Bolus Trigger Level": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//BolusTriggerLevel",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Bolus Trigger Algorithm": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//BolusTriggerAlgorithm",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Start of Injection": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//StartOfInjection",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Bolus Cardiac Output": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//BolusCardiacOutput",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Bolus Height": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//BolusHeight",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Bolus Organ 1": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//BolusOrgan2",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Bolus Organ 2": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//BolusOrgan2",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Bolus ROI": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//BolusROI",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Chaser Bolus Flow": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//ChaserBolusFlow",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Chaser Bolus Volume": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//ChaserBolusVolume",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Contrast Protocol": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//ContrastProtocol",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Contrast Name": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//ContrastName",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Contrast Volume 1": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//ContrastVolume1",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Contrast Flow 1": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//ContrastFlow1",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Contrast Volume 2": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//ContrastVolume2",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Contrast Flow 2": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//ContrastFlow2",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Injection Applied Phase Bolus Shaping": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//InjectionAppliedPhaseBolusShaping",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Injection Applied Phase Duration": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//InjectionAppliedPhaseDuration",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Injection Applied Phase Flow": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//InjectionAppliedPhaseFlow",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Injection Applied Phase Ratio": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//InjectionAppliedPhaseRatio",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Injection Applied Phase Type": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//InjectionAppliedPhaseType",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Injection Applied Phase Volume": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//InjectionAppliedPhaseVolume",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Injection Phase Bolus Shaping": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//InjectionPhaseBolusShaping",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Injection Phase Duration": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//InjectionPhaseDuration",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Injection Phase Flow": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//InjectionPhaseFlow",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Injection Phase Ratio": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//InjectionPhaseRatio",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Injection Phase Type": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//InjectionPhaseType",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Injection Phase Volume": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//InjectionPhaseVolume",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ],
+    "Injection Pressure Limit": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//InjectionPressureLimit",
+            "entry_node_xpath": ".//MlBolusType"
+        }
+    ]
+}
