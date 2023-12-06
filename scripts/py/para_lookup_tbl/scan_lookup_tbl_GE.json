@@ -1,0 +1,142 @@
+{
+    "Range": [
+        "get_para_from_indiv_prot_xml_GE_Optima",
+        {
+            "para_xpath": "^seriesDescriptionRecon",
+            "in_group": true,
+            "in_recon": false
+        }
+    ],
+    "kVp": [
+        "get_para_from_indiv_prot_xml_GE_Optima",
+        {
+            "para_xpath": "^kiloVolts",
+            "in_group": true,
+            "in_recon": false
+        }
+    ],
+    "Auto kV Mode": [
+        "get_para_from_indiv_prot_xml_GE_Optima",
+        {
+            "para_xpath": "^kvModulationMode",
+            "in_group": true,
+            "in_recon": false
+        }
+    ],
+    "Noise Index": [
+        "get_para_from_indiv_prot_xml_GE_Optima",
+        {
+            "para_xpath": "^automaNoiseIndex",
+            "in_group": true,
+            "in_recon": false
+        }
+    ],
+    "Reference Noise Index": [
+        "get_para_from_indiv_prot_xml_GE_Optima",
+        {
+            "para_xpath": "^automaReferenceNoiseIndex",
+            "in_group": true,
+            "in_recon": false
+        }
+    ],
+    "Auto mA minimum": [
+        "get_para_from_indiv_prot_xml_GE_Optima",
+        {
+            "para_xpath": "^automaMinMilliAmps",
+            "in_group": true,
+            "in_recon": false
+        }
+    ],
+    "Auto mA maximum": [
+        "get_para_from_indiv_prot_xml_GE_Optima",
+        {
+            "para_xpath": "^automaMaxMilliAmps",
+            "in_group": true,
+            "in_recon": false
+        }
+    ],
+    "Dose Modulation On/Off": [
+        "get_para_from_indiv_prot_xml_GE_Optima",
+        {
+            "para_xpath": "^automAFlag",
+            "in_group": true,
+            "in_recon": false,
+            "convert_to_val": true,
+            "convert_dict": {
+                "0": "Off",
+                "1": "On",
+                "2": "Off"
+            }
+        }
+    ],
+    "Dose Modulation Submode": [
+        "get_para_from_indiv_prot_xml_GE_Optima",
+        {
+            "para_xpath": "^automaSubMode",
+            "in_group": true,
+            "in_recon": false,
+            "convert_to_val": true,
+            "convert_dict": {
+                "0": "Off",
+                "1": "SmartmA",
+                "2": "SmartmA"
+            }
+        }
+    ],
+    "Rotation Time (s)": [
+        "get_para_from_indiv_prot_xml_GE_Optima",
+        {
+            "para_xpath": "^rotationTime",
+            "in_group": true,
+            "in_recon": false
+        }
+    ],
+    "Delay Time (s)": [
+        "get_para_from_indiv_prot_xml_GE_Optima",
+        {
+            "para_xpath": "^groupDelay",
+            "in_group": true,
+            "in_recon": false
+        }
+    ],
+    "Pitch": [
+        "get_para_from_indiv_prot_xml_GE_Optima",
+        {
+            "para_xpath": "^isd",
+            "in_group": true,
+            "in_recon": false
+        }
+    ],
+    "Slice No (Nominal)": [
+        "get_para_from_indiv_prot_xml_GE_Optima",
+        {
+            "para_xpath": "^numberOfImages",
+            "in_group": true,
+            "in_recon": false
+        }
+    ],
+    "Slice Width (mm)": [
+        "get_para_from_indiv_prot_xml_GE_Optima",
+        {
+            "para_xpath": "^macroRowWidth",
+            "in_group": true,
+            "in_recon": false
+        }
+    ],
+    "Table Feed/Rotation (mm)": [
+        "get_para_from_indiv_prot_xml_GE_Optima",
+        {
+            "para_xpath": "^tableSpeed",
+            "in_group": true,
+            "in_recon": false
+        }
+    ],
+    "Scan FOV (cm)": [
+        "get_para_from_indiv_prot_xml_GE_Optima",
+        {
+            "para_xpath": "^scanFieldOfViewSize",
+            "in_group": true,
+            "in_recon": false
+        }
+    ]
+}

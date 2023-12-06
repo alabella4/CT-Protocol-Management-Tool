@@ -1,0 +1,162 @@
+{
+    "Series Description": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//SeriesDescription",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ],
+    "Slice Thickness (mm)": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//SliceWidthEffective_Recon",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ],
+    "Slice Increment (mm)": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//ReconIncr",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ],
+    "Kernel": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//Kernel",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ],
+    "Window Name": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//Window",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ],
+    "Window-1 Center": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//Window1Center",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ],
+    "Window-1 Width": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//Window1Width",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ],
+    "Window-2 Center": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//Window2Center",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ],
+    "Window-2 Width": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//Window2Width",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ],
+    "Iter.Recon Type": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//IRec",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ],
+    "Iter.Recon Strength": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//IRecStrengths",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ],
+    "Hor FOV for Recon (mm)": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//FoVHorLength",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ],
+    "Vert FOV for Recon (mm)": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//FoVVertLength",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ],
+    "Transfer1": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//Transfer1",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ],
+    "Transfer2": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//Transfer2",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ],
+    "Transfer3": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//Transfer3",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ]
+}

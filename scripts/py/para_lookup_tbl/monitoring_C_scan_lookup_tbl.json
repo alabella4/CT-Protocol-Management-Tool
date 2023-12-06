@@ -1,0 +1,176 @@
+{
+    "Range": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//RangeName",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeScanType"
+        }
+    ],
+    "Reference kVp": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//QualityReferenceVoltage",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeScanType"
+        }
+    ],
+    "kVp": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//Voltage",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeScanType"
+        }
+    ],
+    "Qref mAs": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//QualityReferencemAs",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeScanType"
+        }
+    ],
+    "mAs": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//CustomMAs",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeScanType"
+        }
+    ],
+    "Auto kV Mode": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//AutokVMode",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeScanType"
+        }
+    ],
+    "Dose Modulation On/Off": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//Care",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeScanType"
+        }
+    ],
+    "Rotation Time (s)": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//RotTime",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeScanType"
+        }
+    ],
+    "Delay Time (s)": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//StartDelay",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeScanType"
+        }
+    ],
+    "Pitch": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//PitchFactor",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeScanType"
+        }
+    ],
+    "Slice No (Actual)": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//NoOfSlicesActual",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeScanType"
+        }
+    ],
+    "Slice Width (mm)": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//SliceWidthCollimated",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeScanType"
+        }
+    ],
+    "Scan FOV (mm)": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//FOVLimitForThreshold",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeScanType"
+        }
+    ],
+    "No of Scans": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//NoOfScans",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeScanType"
+        }
+    ],
+    "Kernel": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//Kernel",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType"
+        }
+    ],
+    "Window": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//Window",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType"
+        }
+    ],
+    "Transfer1": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//Transfer1",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ],
+    "Transfer2": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//Transfer2",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ],
+    "Transfer3": [
+        "get_para_from_indiv_prot_xml_Siemens_Force",
+        {
+            "para_xpath": ".//Transfer3",
+            "entry_node_xpath": ".//MlModeEntryType",
+            "entry_node_id_attrib": "@EntryNo",
+            "sub_node_xpath": "./MlModeReconType",
+            "sub_node_id_attrib": "@ReconJob"
+        }
+    ]
+}
