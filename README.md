@@ -21,5 +21,8 @@ Structure of the repository
 
 EXAMPLES
 
-- General output format
+- General Output Format
 ![example1](https://github.com/alabella4/CT-Protocol-Management-Tool/assets/109547902/f83b8acd-7ea3-47db-a9b3-9425d24ce408)
+
+- Example Siemens General CT
+![example2](https://github.com/alabella4/CT-Protocol-Management-Tool/assets/109547902/4e908c41-c3cc-41c2-9e52-c5263f887c56)
