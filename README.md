@@ -18,3 +18,8 @@ Structure of the repository
 -   store_para_lookup_tbl_json_GE - generate JSON files for GE protocol files based on GE data structure
 
 - get_para_from_indiv_prot_xml - extracts parameters from Siemens or GE files based on the called fields from the JSON files
+
+EXAMPLES
+
+- General output format
+![example1](https://github.com/alabella4/CT-Protocol-Management-Tool/assets/109547902/f83b8acd-7ea3-47db-a9b3-9425d24ce408)
